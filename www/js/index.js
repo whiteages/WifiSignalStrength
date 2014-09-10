@@ -41,9 +41,9 @@ function checkConnection() {
 	var somerand = document.getElementById("somerand");
 	somerand.innerHTML += Math.floor(Math.random()*100 + 100);
 	somerand.innerHTML += "<br>Wifi List:";
-	//somerand.innerHTML += window.wifi.networks;
+	somerand.innerHTML += window.wifi.networks;
 	
-	//alert(window.wifi);
+	alert(window.wifi);
     //var wifiList = window.wifi.networks;
     //alert('Wifi List: ' + wifiList);
 }
